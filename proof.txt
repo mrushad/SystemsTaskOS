@@ -1,0 +1,9 @@
+$ sudo insmod hello.ko
+$ sudo rmmod hello
+$ dmesg | tail
+.
+.
+.
+[ 2402.135136] Hello world!
+[ 2409.462599] Bye!
+
